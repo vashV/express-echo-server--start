@@ -3,14 +3,14 @@ import log from '@ajar/marker';
 import morgan from 'morgan';
 
 
-// const morgan = require('morgan');
-
 
 const { PORT, HOST } = process.env;
 
 // console.log(process.env);
 
 const app = express()
+
+app.use( morgan('dev') );
 
 
 app.get('/',  (req, res) => {
