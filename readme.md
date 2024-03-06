@@ -3,7 +3,7 @@
 
 ### Challenge instructions
 
-1. Clone this repo, install dependencies, and run the `dev` script to get a first orientation.
+1. Fork & clone this repo, install dependencies, and run the `dev` script to get a first orientation.
 1. Install another dependency - the `morgan` 3rd party middleware and use the middleware in your app:  
          `app.use( morgan('dev') );`
 
@@ -18,3 +18,5 @@
 1. return api json response
 1. return html markup response
 1. return 404 status with a custom response to unsupported routes
+
+Push your solution to your forked repo and send me your URL
